@@ -1,0 +1,43 @@
+{
+  "name": "mern-fs-vladilen",
+  "version": "1.0.0",
+  "description": "Fullstack MERN app to make your links shorter",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app",
+    "server": "nodemon app",
+    "client": "npm run start --prefix client",
+    "client:install": "npm install --prefix client",
+    "client:build": "npm run build --prefix client",
+    "dev": "cross-env NODE_ENV=development concurrently \"npm run server\" \"npm run client\" "
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "fullstack",
+    "frontend",
+    "backend",
+    "rest"
+  ],
+  "author": "Hlukhanych Bogdan, <hlukhanych26@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.6",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1",
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.12"
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "port": 5000,
+    "jwtSecret": "carnage mern",
+    "mongoURI": "mongodb+srv://carnage:carnage2001@cluster0.odnno.mongodb.net/mern-fs-vladilen?retryWrites=true&w=majority",
+    "baseUrl": "http://localhost:5000"
+}
